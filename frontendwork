@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <style type="text/css">
+    h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+  </style>
+
+<h1 align="center">CUSTOMER REVIEW SYSTEM</h1>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Contact Form - PHP/MySQL Demo Code</title>
+</head>
+
+<body style="background-color:#D70B27;">
+<fieldset>
+<legend algin="center">WELCOME TO DBS</legend>
+<form name="frmContact" method="post" action="contact.php">
+<p>
+<label for="Name">ENTER YOUR ID NO </label>
+<input type="text" name="txtName" id="txtName">
+</p>
+
+<p>
+<input type="submit" name="Submit" id="Submit" value="Submit">
+</p>
+</form>
+</fieldset>
+</body>
+</html>
